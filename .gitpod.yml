@@ -1,0 +1,6 @@
+tasks:
+  - command: |
+      . ${GITPOD_REPO_ROOT}/scripts/init.sh
+      echo "$WG_CONFIG"  | base64 -d > /workspace/.wg-config.conf
+      echo "$K8S_CONFIG" | base64 -d > ~/.kube/config
+      wg-quick up /workspace/.wg-config.conf
