@@ -31,3 +31,15 @@ Liveness probe failed: HTTP probe failed with statuscode: 500
 Define a TCP liveness probe
 
 
+kubectl apply -f B/tcp.yaml
+Führt yaml Datei aus
+
+kubectl describe pod goproxy
+livelyness überprüfen ok
+
+
+
+Define a gRPC liveness probe
+
+
+
