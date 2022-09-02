@@ -20,3 +20,14 @@ Define a liveness HTTP request
 
 
 
+kubectl apply -f B/http.yaml
+Führt die yaml datei aus
+
+kubectl describe pod liveness-http
+Liveness probe failed: HTTP probe failed with statuscode: 500
+
+
+
+Define a TCP liveness probe
+
+
