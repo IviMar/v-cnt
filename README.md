@@ -31,7 +31,7 @@ Anschliessend werden weitergehende Konzepte behandelt.
 
 ## Client Umgebung
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://gitlab.com/ch-tbz-hf/Stud/cnt)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/IviMar/v-cnt)
 
 Kompetenzmatrix
 ---------------
