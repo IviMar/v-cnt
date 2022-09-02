@@ -26,3 +26,11 @@ kubectl logs myapp-pod -c init-myservice
 kubectl logs myapp-pod -c init-mydb
 Zeigt logs an
 
+
+myservice und mydb erstellt
+kubectl apply -f C/my.yaml
+erstellt die services
+
+kubectl get -f C/my.yaml
+Services laufen
+
