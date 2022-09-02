@@ -43,3 +43,9 @@ Define a gRPC liveness probe
 
 
 
+kubectl apply -f B/grcp.yaml
+Führt yaml datei aus
+
+kubectl describe pod etcd-with-grpc
+livelyness check ist nicht fehlgeschlagen
+
