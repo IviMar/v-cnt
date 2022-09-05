@@ -6,9 +6,10 @@ Cron ist ein zeitbasierter Job-Scheduler in Unix oder Unix-ähnlichen Computer-B
 CronJobs können für einzelne Befehle oder für die automatisierte Ausführung periodisch wiederkehrender und aneinander gereihter Befehle eingesetzt werden, zum Beispiel für das Bereinigen von Datenbanken durch Entfernen veralteter Einträge, Logfiles und Kommentare oder zum Erstellen regelmäßiger Statistiken zur Anzahl der Benutzer einer Website.Weitere Anwendungsmöglichkeiten sind z.B. für Veröffentlichung neuer Inhalte auf einer Website zu einem bestimmten Termin, die gebündelte Generierung von Rechnungen oder der automatisierte Newsletterversand. Ebenso kann das Backup einer Datenbank mithilfe von CronJobs zeitgesteuert durchgeführt werden.
 
 Yaml
-Yaml ist eine Programmiersprache, mit ihr werden Codes ausgeführt. In unserem Beispiel zum Erstellen der Chronjobs.
+Yaml ist eine Programmiersprache, mit ihr werden Codes ausgeführt. In unserem Beispiel zum Erstellen der Cronjobs.
 
 Befehle
+
 kubectl get pods
 
 Führt die Config Datei aus und verbindet sich mit den Nodes.

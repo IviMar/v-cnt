@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+name: hello
+spec:
+      parallelism: 3
+      completions: 6
+jobTemplate:
+    spec:
+    template:
+        spec:
+        containers:
+        - name: hello2
+            image: perl:5.34.0
+            imagePullPolicy: IfNotPresent
+            command: ["perl",  "-Mbignum=bpi", "-wle", "print bpi(2000)"]
+        restartPolicy: Never
+        backoffLimit: 6
