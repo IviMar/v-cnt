@@ -1,3 +1,12 @@
+Liveness Probes werden verwendet, um festzustellen, wann ein container neugestartet werden muss. Zum beispiel werdem mit liveness probes deadlocks festgestellt und dann ein container neugestartet.
+
+Deadlock ist, wenn ein container zwar läuft, aber kein Fortschritt gemacht wid. Neustarten des containers kann dies beheben.
+
+Readiness probes werden verwendet, um festzustellen wann ein pod bereit ist um traffic zu erhalten.
+Wenn ein Pod nicht ready ist, wird er vom load balancer entfernt.
+
+startup probes werden verwendet, um festzustellen, ob ein pod gestartet ist. Wird eine startup probe verwendet, disabled sie liveness und readiness probes, um sicherzustellen dass diese keinen einfluss auf die startup probe haben.
+
 Define a liveness command
 
 
