@@ -16,3 +16,11 @@ helm repo update
 Mit helm install wordpress installieren
 helm install my-release bitnami/wordpress
 
+Mit helm create mychart einen helm chart erstellen
+helm create mychart
+
+Alles im Verzeichnis löschen
+rm -rf mychart/templates/*
+
+Die Datei configmap.yaml in templates erstellen
+
