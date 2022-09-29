@@ -7,3 +7,12 @@ chmod 700 get_helm.sh
 Das Script ausführen und HELM installieren.
 ./get_helm.sh
 
+Mit helm repo add das chart repository hinzufügen
+helm repo add bitnami https://charts.bitnami.com/bitnami
+
+Mit helm repo update die chart list updaten
+helm repo update
+
+Mit helm install wordpress installieren
+helm install my-release bitnami/wordpress
+
