@@ -24,3 +24,10 @@ rm -rf mychart/templates/*
 
 Die Datei configmap.yaml in templates erstellen
 
+Installiert den myservice
+helm install nginx ./myservice
+
+kubectl get all
+zeigt alle pots, services und deployments an
+
+Von dort kann man den port für nginx auslesen und nginx aufrufen
